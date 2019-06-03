@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.utfpr.gabrielgarcia_projetofinal.controleVagas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".utils.InfoActivity"
+            android:parentActivityName=".utils.InfoActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".utils.InfoActivity" />
+        </activity>
+
+        <activity android:name="com.example.utfpr.gabrielgarcia_projetofinal.controleVagas.VagasActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.utfpr.gabrielgarcia_projetofinal.controleVagas.VagaActivity"
+            android:parentActivityName="com.example.utfpr.gabrielgarcia_projetofinal.controleVagas.VagasActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.utfpr.gabrielgarcia_projetofinal.controleVagas.VagasActivity" />
+        </activity>
+        <activity android:name="com.example.utfpr.gabrielgarcia_projetofinal.controleVagas.CargoActivity"
+            android:parentActivityName="com.example.utfpr.gabrielgarcia_projetofinal.controleVagas.CargosActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.utfpr.gabrielgarcia_projetofinal.controleVagas.CargosActivity" />
+        </activity>
+        <activity android:name="com.example.utfpr.gabrielgarcia_projetofinal.controleVagas.CargosActivity"
+            android:parentActivityName="com.example.utfpr.gabrielgarcia_projetofinal.controleVagas.VagasActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.utfpr.gabrielgarcia_projetofinal.controleVagas.VagasActivity" />
+        </activity>
+    </application>
+
+</manifest>

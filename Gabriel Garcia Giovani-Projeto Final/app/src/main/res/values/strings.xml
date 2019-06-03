@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Vacancies Control (Internship/Job)</string>
+    <string name="novo">Novo</string>
+    <string name="nome">Nome</string>
+    <string name="idade">Idade</string>
+    <string name="salvar">Save</string>
+    <string name="excluir">Delete</string>
+    <string name="cancelar">Cancel</string>
+    <string name="nova_vaga">New Vacancy</string>
+    <string name="alterar_vaga">Modify Vacancy</string>
+    <string name="abrir">Modify</string>
+    <string name="confirmar">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirmacao">Confirmation alert</string>
+    <string name="deseja_excluir">Do you really want to delete </string>
+    <string name="atencao">Attention</string>
+    <string name="ok">OK</string>
+    <string name="empresa_vazia">Company field cannot be empty!</string>
+    <string name="cidade_vazia">City field cannot be empty!</string>
+    <string name="salario_vazia">Salary field cannot be empty!</string>
+
+    <string name="descricao">Office</string>
+    <string name="novo_cargo">New office</string>
+    <string name="alterar_cargo">Modify office</string>
+    <string name="descricao_vazia">Office field cannot be empty!</string>
+    <string name="cargo">Office</string>
+    <string name="cargos">Offices</string>
+    <string name="cargo_usado">Selected office is already being used and cannot be deleted!</string>
+    <string name="descricao_usada">This office is already being used by another component!</string>
+    <string name="nenhum_cargo">There is no created office!</string>
+
+    <string name="softwareDeveloper">Software Developer</string>
+    <string name="fullStack">Full Stack Developer</string>
+
+    <string name="empresa">Company</string>
+    <string name="gerenciarCargos">Manage offices</string>
+    <string name="salario">Salary</string>
+    <string name="cidade">City</string>
+
+    <string name="infoPessoais">Vacancies Control (Internship/Job): Application responsable for registering, modifying or deleting related informations to internship vacancies/jobs such as: company, office, city and salary, in a simple and easy way. Author: Gabriel Garcia Giovani</string>
+    <string name="amarelo">yellow</string>
+    <string name="vermelho">red</string>
+    <string name="branco">white</string>
+    <string name="info">Info</string>
+
+    <string name="remocaoSucesso">Selected item succesfully removed!</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Controle de vagas (Estágio/Emprego)</string>
+    <string name="novo">Novo</string>
+    <string name="nome">Nome</string>
+    <string name="idade">Idade</string>
+    <string name="salvar">Salvar</string>
+    <string name="excluir">Excluir</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="nova_vaga">Adicionar vaga</string>
+    <string name="alterar_vaga">Modificar vaga</string>
+    <string name="abrir">Alterar</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="confirmacao">Alerta de Confirmacao</string>
+    <string name="deseja_excluir">Tem certeza que deseja excluir </string>
+    <string name="atencao">Atenção</string>
+    <string name="ok">OK</string>
+    <string name="empresa_vazia">O campo "Empresa" não pode ser nulo!</string>
+    <string name="cidade_vazia">O campo "Cidade" não pode ser nulo!</string>
+    <string name="salario_vazia">O campo "Salario" não pode ser nulo!</string>
+
+    <string name="descricao">Cargo</string>
+    <string name="novo_cargo">Novo cargo</string>
+    <string name="alterar_cargo">Modificar cargo</string>
+    <string name="descricao_vazia">O campo "Cargo" não pode ser nulo!</string>
+    <string name="cargo">Cargo</string>
+    <string name="cargos">Cargos</string>
+    <string name="cargo_usado">O cargo selecionado já está sendo utilizado e portanto não pode ser excluído!</string>
+    <string name="descricao_usada">Este cargo já está sendo utilizado por outro componente!</string>
+    <string name="nenhum_cargo">Não há nenhum cargo cadastrado!</string>
+
+    <string name="softwareDeveloper">Desenvolvedor de Software</string>
+    <string name="fullStack">Desenvolvedor FullStack</string>
+
+    <string name="empresa">Empresa</string>
+    <string name="gerenciarCargos">Gerenciar Cargos</string>
+    <string name="salario">Salario</string>
+    <string name="cidade">Cidade</string>
+
+    <string name="infoPessoais">Controle de vagas (Estágios/Empregos):
+                      Aplicação responsável por cadastrar, excluir ou alterar informações relacionadas à vagas de estágios/empregos tais como: empresa, cargo, cidade e salario, de forma simples e prática.
+
+                      Autor: Gabriel Garcia Giovani"</string>
+    <string name="amarelo">amarelo</string>
+    <string name="vermelho">vermelho</string>
+    <string name="branco">branco</string>
+    <string name="info">Info</string>
+
+    <string name="remocaoSucesso">Selected item succesfully removed!</string>
+</resources>

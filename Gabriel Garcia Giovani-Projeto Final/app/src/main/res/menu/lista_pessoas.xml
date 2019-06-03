@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuItemNovo"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/novo"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuItemCargos"
+        android:title="@string/gerenciarCargos"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuItemInfo"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/info" />
+
+    <group
+        android:id="@+id/colorGroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuItemBranco"
+            android:title="@string/branco" />
+        <item
+            android:id="@+id/menuItemAmarelo"
+            android:title="@string/amarelo" />
+        <item
+            android:id="@+id/menuItemVermelho"
+            android:title="@string/vermelho" />
+    </group>
+
+</menu>
